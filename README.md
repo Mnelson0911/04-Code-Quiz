@@ -23,3 +23,4 @@ WHEN the game is over
 THEN I can save my initials and my score
 
 
+I honestly had a ton of trouble with this one and I got it to ALMOST the very end and couldn't complete it correctly, I will have to go back and finish up the correct functionality for this one.  

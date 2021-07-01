@@ -1,3 +1,7 @@
+body{
+    background-color: grey;
+}
+
 #starting{
     display: flex;
     align-items: center;
@@ -10,6 +14,25 @@ button{
     width: 200px;
     background-color: black;
     color: blanchedalmond;
+    font-size: 1em;
+}
+
+#timerBox{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin: 10px;
+}
+
+#timeLeft{
+    height: 150px;
+    width: 250px;
+    background-color: chartreuse;
+    color: darkblue;
+    display: none;
+    font-size: 1.8em;
+    justify-content: center;    
+    align-items: center;
 }
 
 main{
@@ -18,6 +41,7 @@ main{
     align-items: center;
     flex-flow: column;
 }
+
 
 #question{
     display: flex;
@@ -29,6 +53,7 @@ main{
     align-items: center;
     border-radius: 20px;
     box-shadow: 5px 5px 4px purple;
+    font-size: 1.4em;
 }
 
 p{
@@ -49,4 +74,49 @@ p{
     align-items: center;
     border-radius: 20px;
     box-shadow: 5px 5px 4px blue;
+}
+
+#finalScore{
+    display: flex;
+}
+
+#scorebox{
+    display: none;
+    height: 300px;
+    width: 550px;
+    background-color: burlywood;
+    margin: 30px;
+    justify-content: space-around;
+    align-items: center; 
+    box-shadow: 5px 5px 4px black;   
+    border-radius: 20px;
+}
+
+#intBox{
+    height: 120px;
+    width: 220px;
+    background-color: cadetblue;
+    color: black;
+    font-size: 1.1em;
+    justify-content: center;   
+    align-items: center;    
+    text-align: center;
+    display: none;
+    margin-top: 350px;
+    border-radius: 20px;
+    border: solid 1px blue;
+    box-shadow: 2px 2px 3px lightskyblue;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    display: none;
+    height: 500px;
+    width: 420px;
+    background-color: aquamarine;
 }

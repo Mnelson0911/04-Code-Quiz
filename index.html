@@ -14,17 +14,43 @@
         <button id = "startBtn">Click me to start the test!</button>
     </div>
 
+    <article id = "initialImput">
+            <div id = "intBox">
+                <input placeholder="Initials" type="text" id="you" name="fname" value="">
+                <input id = "submit" type="submit" value="Submit">
+            </div>    
+    </article>
+
+    <div id = timerBox>
+        <div id = timeLeft></div>
+    </div>
+
     <main>
-    <div id = "question"><p>Placeholder text for a question</p></div>
+        <div id = "question"><p>Placeholder text for a question</p></div>
     <br>
     <br>
-    <div id = "answers">
+        <div id = "answers">
         <div id = "A"></div>
         <div id = "B"></div>
         <div id = "C"></div>
         <div id = "D"></div>
-    </div>
+        </div>
     </main>
+    <br>
+    <br>
+    <article id = "finalScore">
+        <div id = scorebox>
+            <h3>Player:</h3>
+            <div id = "savedName"></div>
+            <h3>Score:</h3>
+            <div id = "yourScore"></div>
+            <button id = "allScores">See the Leaderboard!</button>
+        </div>
+    </article>
+
+    <article>
+    <div id = "board" ></div>
+    </article>
 
 <script src = "./assets/quiz.js"></script>
 </body>
